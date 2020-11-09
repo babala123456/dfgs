@@ -6,5 +6,5 @@ import java.util.List;
 import java.util.Map;
 
 public interface MenuService {
-    public List<TbMenu> findMenusByPid(int id);
+    public List<TbMenu> findMenusByPid(int relevanceId);
 }

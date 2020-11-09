@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-public class LoginController {
+public class BackController {
 
     @Resource
     private MenuService menuServiceImpl;
@@ -28,6 +28,7 @@ public class LoginController {
             System.out.println(menu.getMenuName());
         }
         System.out.println(menuMap.size());
+
         return "back";
     }
 }
